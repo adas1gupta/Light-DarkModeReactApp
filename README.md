@@ -55,3 +55,20 @@ function App() {
 - Updates DOM based on state changes
 - Dependency array controls when effect runs
 - Clean way to handle side effects
+
+## Installation
+1. Clone the repository
+2. Link CSS in HTML:
+```html
+
+```
+3. Run your development server
+
+## Usage
+Click the button to toggle between light and dark themes. The useEffect hook will automatically apply the appropriate CSS class to the body element.
+
+## What I Learned
+- How to use CSS custom properties for theming
+- Managing side effects with useEffect
+- Connecting React state to DOM updates
+- Writing scalable CSS with variables

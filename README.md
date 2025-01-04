@@ -56,13 +56,35 @@ function App() {
 - Dependency array controls when effect runs
 - Clean way to handle side effects
 
-## Installation
-1. Clone the repository
-2. Link CSS in HTML:
-```html
+## Getting Started
 
+1. Install dependencies:
+```bash
+npm install
 ```
-3. Run your development server
+
+2. Run development server:
+```bash
+npm run dev
+```
+
+3. Build for production:
+```bash
+npm run build
+```
+
+4. Access the servers:
+- Development server: `http://localhost:5173` (after running `npm run dev`)
+- Preview production build: `http://localhost:4173` (after running `npm run preview`)
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
 
 ## Usage
 Click the button to toggle between light and dark themes. The useEffect hook will automatically apply the appropriate CSS class to the body element.
